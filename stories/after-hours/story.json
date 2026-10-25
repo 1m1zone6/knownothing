@@ -1,0 +1,767 @@
+{
+  "scriptVersion": 1,
+  "id": "after-hours-shotaro-prototype",
+  "title": "AFTER HOURS",
+  "description": "虚构平行世界恋爱故事原型。当前版本暂以大崎将太郎路线作为手机内容样板；六人选角入口将在后续单独实现。",
+  "revision": 1,
+  "phone": {
+    "owner": "大崎将太郎",
+    "date": "2026-10-25",
+    "time": "09:41",
+    "battery": 87,
+    "network": "5G",
+    "wallpaper": "after-hours-shotaro",
+    "passcode": "1125",
+    "theme": "dark",
+    "notifications": true
+  },
+  "installedApps": [
+    {
+      "id": "phone",
+      "name": "전화",
+      "installed": true,
+      "visible": true,
+      "dock": true,
+      "folder": "",
+      "icon": ""
+    },
+    {
+      "id": "messages",
+      "name": "메시지",
+      "installed": true,
+      "visible": true,
+      "dock": true,
+      "folder": "",
+      "icon": ""
+    },
+    {
+      "id": "kakao",
+      "name": "카카오톡",
+      "installed": true,
+      "visible": true,
+      "dock": false,
+      "folder": "",
+      "icon": ""
+    },
+    {
+      "id": "photos",
+      "name": "사진",
+      "installed": true,
+      "visible": true,
+      "dock": false,
+      "folder": "",
+      "icon": ""
+    },
+    {
+      "id": "camera",
+      "name": "카메라",
+      "installed": true,
+      "visible": true,
+      "dock": true,
+      "folder": "",
+      "icon": ""
+    },
+    {
+      "id": "music",
+      "name": "음악",
+      "installed": true,
+      "visible": true,
+      "dock": false,
+      "folder": "",
+      "icon": ""
+    },
+    {
+      "id": "calendar",
+      "name": "캘린더",
+      "installed": true,
+      "visible": true,
+      "dock": false,
+      "folder": "",
+      "icon": ""
+    },
+    {
+      "id": "mail",
+      "name": "메일",
+      "installed": true,
+      "visible": true,
+      "dock": false,
+      "folder": "",
+      "icon": ""
+    },
+    {
+      "id": "notes",
+      "name": "메모",
+      "installed": true,
+      "visible": true,
+      "dock": false,
+      "folder": "",
+      "icon": ""
+    },
+    {
+      "id": "settings",
+      "name": "설정",
+      "installed": true,
+      "visible": true,
+      "dock": false,
+      "folder": "",
+      "icon": ""
+    },
+    {
+      "id": "instagram",
+      "name": "Instagram",
+      "installed": true,
+      "visible": true,
+      "dock": false,
+      "folder": "",
+      "icon": ""
+    },
+    {
+      "id": "twitter",
+      "name": "X",
+      "installed": true,
+      "visible": true,
+      "dock": false,
+      "folder": "",
+      "icon": ""
+    },
+    {
+      "id": "threads",
+      "name": "Threads",
+      "installed": true,
+      "visible": true,
+      "dock": false,
+      "folder": "",
+      "icon": ""
+    },
+    {
+      "id": "wechat",
+      "name": "Weverse",
+      "installed": true,
+      "visible": true,
+      "dock": false,
+      "folder": "",
+      "icon": ""
+    },
+    {
+      "id": "spotify",
+      "name": "Apple Music",
+      "installed": true,
+      "visible": true,
+      "dock": false,
+      "folder": "",
+      "icon": ""
+    },
+    {
+      "id": "taobao",
+      "name": "Coupang",
+      "installed": true,
+      "visible": true,
+      "dock": false,
+      "folder": "",
+      "icon": ""
+    },
+    {
+      "id": "redbook",
+      "name": "MUSINSA",
+      "installed": true,
+      "visible": true,
+      "dock": false,
+      "folder": "",
+      "icon": ""
+    },
+    {
+      "id": "alipay",
+      "name": "Olive Young",
+      "installed": true,
+      "visible": true,
+      "dock": false,
+      "folder": "",
+      "icon": ""
+    }
+  ],
+  "contacts": [
+    {
+      "id": "player",
+      "name": "나",
+      "phone": "010-0000-0000",
+      "avatar": "",
+      "bio": "우리만 아는 시간"
+    },
+    {
+      "id": "shotaro",
+      "name": "大崎将太郎",
+      "phone": "010-1125-0000",
+      "avatar": "",
+      "bio": "练习结束后也要好好吃饭。"
+    },
+    {
+      "id": "eunseok",
+      "name": "宋银硕",
+      "phone": "",
+      "avatar": "",
+      "bio": "朋友 / 话少但靠谱"
+    },
+    {
+      "id": "sungchan",
+      "name": "郑成灿",
+      "phone": "",
+      "avatar": "",
+      "bio": "朋友 / 行程很多的直球派"
+    },
+    {
+      "id": "manager",
+      "name": "매니저 형",
+      "phone": "",
+      "avatar": "",
+      "bio": "工作安排"
+    },
+    {
+      "id": "dance_friend",
+      "name": "유토",
+      "phone": "",
+      "avatar": "",
+      "bio": "舞蹈朋友"
+    }
+  ],
+  "chats": [
+    {
+      "id": "shotaro-imessage",
+      "app": "messages",
+      "title": "将太郎",
+      "participants": [
+        "player",
+        "shotaro"
+      ],
+      "messages": [
+        {
+          "id": "im-001",
+          "title": "昨晚",
+          "body": "집 도착했어?",
+          "senderId": "shotaro",
+          "time": "2026-10-24 23:18"
+        },
+        {
+          "id": "im-002",
+          "title": "昨晚",
+          "body": "到家了！你呢？",
+          "senderId": "player",
+          "time": "2026-10-24 23:20"
+        },
+        {
+          "id": "im-003",
+          "title": "昨晚",
+          "body": "나도 방금. 오늘 많이 걸었지? 발 괜찮아?",
+          "senderId": "shotaro",
+          "time": "2026-10-24 23:21"
+        },
+        {
+          "id": "im-004",
+          "title": "昨晚",
+          "body": "没事啦，你今天练习那么久才辛苦。",
+          "senderId": "player",
+          "time": "2026-10-24 23:22"
+        },
+        {
+          "id": "im-005",
+          "title": "昨晚",
+          "body": "나는 괜찮아 ㅎㅎ 내일은 늦잠 자자. 알람 끄고 더 자도 돼.",
+          "senderId": "shotaro",
+          "time": "2026-10-24 23:23"
+        },
+        {
+          "id": "im-006",
+          "title": "今天",
+          "body": "醒了的话告诉我。早餐给你带过去。",
+          "senderId": "shotaro",
+          "time": "2026-10-25 09:06"
+        },
+        {
+          "id": "im-007",
+          "title": "今天",
+          "body": "你不是上午还有练习吗？",
+          "senderId": "player",
+          "time": "2026-10-25 09:08"
+        },
+        {
+          "id": "im-008",
+          "title": "今天",
+          "body": "有一点点。结束后去找你，约会还是要约会的。",
+          "senderId": "shotaro",
+          "time": "2026-10-25 09:09"
+        },
+        {
+          "id": "im-009",
+          "title": "今天",
+          "body": "那我想吃热的！",
+          "senderId": "player",
+          "time": "2026-10-25 09:10"
+        },
+        {
+          "id": "im-010",
+          "title": "今天",
+          "body": "收到 🫡 죽이랑 계란 사 갈게.",
+          "senderId": "shotaro",
+          "time": "2026-10-25 09:11"
+        }
+      ]
+    },
+    {
+      "id": "shotaro-kakao",
+      "app": "kakao",
+      "title": "将太郎",
+      "participants": [
+        "player",
+        "shotaro"
+      ],
+      "messages": [
+        {
+          "id": "ka-001",
+          "title": "",
+          "body": "사진 보내줄까? 어제 네가 찍어준 거",
+          "senderId": "shotaro",
+          "time": "2026-10-24 18:42"
+        },
+        {
+          "id": "ka-002",
+          "title": "",
+          "body": "当然要！",
+          "senderId": "player",
+          "time": "2026-10-24 18:42"
+        },
+        {
+          "id": "ka-003",
+          "title": "",
+          "body": "보냈어. 근데 너 웃는 사진이 더 잘 나왔더라.",
+          "senderId": "shotaro",
+          "time": "2026-10-24 18:43"
+        },
+        {
+          "id": "ka-004",
+          "title": "",
+          "body": "你又来了……",
+          "senderId": "player",
+          "time": "2026-10-24 18:44"
+        },
+        {
+          "id": "ka-005",
+          "title": "",
+          "body": "왜 ㅋㅋ 사실인데. 다음엔 내가 더 많이 찍어줄게.",
+          "senderId": "shotaro",
+          "time": "2026-10-24 18:45"
+        }
+      ]
+    },
+    {
+      "id": "friends-group",
+      "app": "kakao",
+      "title": "연습 끝나고 밥",
+      "participants": [
+        "shotaro",
+        "eunseok",
+        "sungchan",
+        "dance_friend"
+      ],
+      "messages": [
+        {
+          "id": "fg-001",
+          "title": "",
+          "body": "오늘 끝나고 밥 먹을 사람?",
+          "senderId": "sungchan",
+          "time": "2026-10-24 16:31"
+        },
+        {
+          "id": "fg-002",
+          "title": "",
+          "body": "저녁 약속 있어 ㅎㅎ 먼저 먹어",
+          "senderId": "shotaro",
+          "time": "2026-10-24 16:32"
+        },
+        {
+          "id": "fg-003",
+          "title": "",
+          "body": "또 데이트네",
+          "senderId": "eunseok",
+          "time": "2026-10-24 16:33"
+        },
+        {
+          "id": "fg-004",
+          "title": "",
+          "body": "부럽다 진짜",
+          "senderId": "dance_friend",
+          "time": "2026-10-24 16:34"
+        },
+        {
+          "id": "fg-005",
+          "title": "",
+          "body": "너희도 약속 잡아 ㅋㅋ",
+          "senderId": "shotaro",
+          "time": "2026-10-24 16:35"
+        }
+      ]
+    }
+  ],
+  "content": {
+    "phone": [
+      {
+        "id": "call-001",
+        "title": "나",
+        "body": "통화 · 18분 42초",
+        "sender": "大崎将太郎",
+        "time": "2026-10-24 23:02",
+        "kind": "call",
+        "meta": {
+          "direction": "outgoing"
+        }
+      },
+      {
+        "id": "call-002",
+        "title": "나",
+        "body": "통화 · 4분 11초",
+        "sender": "大崎将太郎",
+        "time": "2026-10-24 20:14",
+        "kind": "call",
+        "meta": {
+          "direction": "incoming"
+        }
+      },
+      {
+        "id": "call-003",
+        "title": "나",
+        "body": "부재중 전화",
+        "sender": "大崎将太郎",
+        "time": "2026-10-23 22:51",
+        "kind": "call",
+        "meta": {
+          "direction": "missed"
+        }
+      },
+      {
+        "id": "call-004",
+        "title": "매니저 형",
+        "body": "통화 · 2분 09초",
+        "sender": "매니저 형",
+        "time": "2026-10-23 15:22",
+        "kind": "call"
+      }
+    ],
+    "twitter": [
+      {
+        "id": "x-001",
+        "title": "오늘의 기록",
+        "body": "날씨가 좋아서 연습실 가는 길이 조금 덜 힘들었다 ☀️",
+        "sender": "shotaro",
+        "time": "2026-10-25 08:40",
+        "kind": "post",
+        "likes": 1284,
+        "comments": [
+          "오늘도 파이팅!",
+          "날씨 좋다"
+        ]
+      },
+      {
+        "id": "x-002",
+        "title": "친구에게 답글",
+        "body": "밥은 꼭 먹어. 연습보다 밥이 먼저임",
+        "sender": "shotaro",
+        "time": "2026-10-24 16:50",
+        "kind": "post",
+        "likes": 743,
+        "comments": [
+          "엄마 같아요ㅋㅋ",
+          "맞는 말"
+        ]
+      },
+      {
+        "id": "x-003",
+        "title": "오늘의 기록",
+        "body": "오랜만에 쉬는 날인데 결국 산책 나왔다. 집에만 있으면 더 피곤한 느낌.",
+        "sender": "shotaro",
+        "time": "2026-10-23 12:15",
+        "kind": "post",
+        "likes": 1093,
+        "comments": [
+          "어디 산책해요?",
+          "사진도 올려줘"
+        ]
+      },
+      {
+        "id": "x-004",
+        "title": "收藏的回复",
+        "body": "좋아하는 사람이랑 평범한 하루를 보내는 게 제일 좋더라.",
+        "sender": "shotaro",
+        "time": "2026-10-21 21:07",
+        "kind": "post",
+        "likes": 1602,
+        "comments": [
+          "갑자기 설레네",
+          "누구랑요 👀"
+        ],
+        "hidden": true,
+        "password": "1125"
+      }
+    ],
+    "threads": [
+      {
+        "id": "th-001",
+        "title": "Threads",
+        "body": "오늘 일정 끝나면 따뜻한 거 먹고 싶다. 추천 받아요 🍲",
+        "sender": "shotaro",
+        "time": "2026-10-25 08:55",
+        "kind": "post",
+        "likes": 362,
+        "comments": [
+          "칼국수!",
+          "죽도 좋아요"
+        ]
+      },
+      {
+        "id": "th-002",
+        "title": "Threads",
+        "body": "약속은 거창한 것보다 서로 시간 내는 게 더 중요한 것 같아.",
+        "sender": "shotaro",
+        "time": "2026-10-23 22:16",
+        "kind": "post",
+        "likes": 508,
+        "comments": [
+          "공감",
+          "이 말 좋다"
+        ]
+      },
+      {
+        "id": "th-003",
+        "title": "Threads",
+        "body": "사진 정리하다가 웃긴 사진 발견함ㅋㅋ 올리면 혼날 듯",
+        "sender": "shotaro",
+        "time": "2026-10-22 19:40",
+        "kind": "post",
+        "likes": 791,
+        "comments": [
+          "올려 올려",
+          "누가 혼내요?"
+        ]
+      }
+    ],
+    "photos": [
+      {
+        "id": "photo-001",
+        "title": "我们在便利店门口",
+        "body": "一起散步回家时拍的照片。",
+        "sender": "大崎将太郎",
+        "time": "2026-10-24 21:18",
+        "kind": "image",
+        "media": "",
+        "meta": {
+          "album": "둘이서"
+        }
+      },
+      {
+        "id": "photo-002",
+        "title": "早餐备忘",
+        "body": "他拍下来的早餐菜单，备注了你喜欢的东西。",
+        "sender": "大崎将太郎",
+        "time": "2026-10-20 10:08",
+        "kind": "image",
+        "media": "",
+        "meta": {
+          "album": "둘이서"
+        }
+      },
+      {
+        "id": "photo-003",
+        "title": "练习室的镜子",
+        "body": "练习结束后的随手记录。",
+        "sender": "大崎将太郎",
+        "time": "2026-10-19 17:42",
+        "kind": "image",
+        "media": "",
+        "meta": {
+          "album": "일상"
+        }
+      }
+    ],
+    "calendar": [
+      {
+        "id": "cal-001",
+        "title": "연습",
+        "body": "舞蹈练习 · 10:30–13:00",
+        "sender": "Calendar",
+        "time": "2026-10-25 10:30",
+        "kind": "event"
+      },
+      {
+        "id": "cal-002",
+        "title": "우리 약속",
+        "body": "和你吃午饭。练习结束后直接过去。",
+        "sender": "Calendar",
+        "time": "2026-10-25 13:30",
+        "kind": "event",
+        "meta": {
+          "important": "true"
+        }
+      },
+      {
+        "id": "cal-003",
+        "title": "전화하기",
+        "body": "睡前打电话确认你明天的安排。",
+        "sender": "Calendar",
+        "time": "2026-10-25 22:30",
+        "kind": "event"
+      }
+    ],
+    "notes": [
+      {
+        "id": "note-001",
+        "title": "她喜欢吃的东西",
+        "body": "죽 / 계란말이 / 따뜻한 라떼\n너무 바쁠 때는 밥 거르지 않게 챙기기.\n다음 데이트: 사진관 가기?",
+        "sender": "大崎将太郎",
+        "time": "2026-10-22 20:14",
+        "kind": "note"
+      },
+      {
+        "id": "note-002",
+        "title": "买东西",
+        "body": "휴대폰 충전 케이블\n따뜻한 양말\n선물 포장지",
+        "sender": "大崎将太郎",
+        "time": "2026-10-21 18:02",
+        "kind": "note"
+      }
+    ],
+    "mail": [
+      {
+        "id": "mail-001",
+        "title": "이번 주 일정 확인",
+        "body": "안녕하세요. 이번 주 연습 일정이 변경되어 토요일 오전 일정은 30분 늦게 시작합니다.",
+        "sender": "매니저 형",
+        "time": "2026-10-24 14:08",
+        "kind": "text"
+      },
+      {
+        "id": "mail-002",
+        "title": "사진 예약 확인",
+        "body": "예약 확인: 10월 27일 16:00. 인원 2명.",
+        "sender": "예약 안내",
+        "time": "2026-10-23 11:30",
+        "kind": "text"
+      }
+    ],
+    "music": [
+      {
+        "id": "music-001",
+        "title": "우리의 귀갓길",
+        "body": "Evening Walk · 08 songs\n지금은 실제 음원 대신 플레이어 UI 확인용 항목입니다.",
+        "sender": "大崎将太郎",
+        "time": "2026-10-25 09:00",
+        "kind": "text",
+        "meta": {
+          "playlist": "true"
+        }
+      },
+      {
+        "id": "music-002",
+        "title": "Track 01 — warm light",
+        "body": "Demo track / audio asset to be added",
+        "sender": "Various Artists",
+        "time": "2026-10-25 09:00",
+        "kind": "audio"
+      },
+      {
+        "id": "music-003",
+        "title": "Track 02 — home",
+        "body": "Demo track / audio asset to be added",
+        "sender": "Various Artists",
+        "time": "2026-10-25 09:00",
+        "kind": "audio"
+      }
+    ],
+    "instagram": [
+      {
+        "id": "ig-001",
+        "title": "영상 통화 기록",
+        "body": "아직 통화 화면이 아닌 콘텐츠 카드입니다. 실제 영상 통화 기능은 별도 UI 개발이 필요합니다.",
+        "sender": "大崎将太郎",
+        "time": "2026-10-24 22:57",
+        "kind": "video",
+        "folder": "私信",
+        "meta": {
+          "fictional": "true"
+        }
+      }
+    ],
+    "taobao": [
+      {
+        "id": "shop-001",
+        "title": "휴대폰 케이블",
+        "body": "주문 완료 · 배송 중",
+        "sender": "Coupang",
+        "time": "2026-10-22 12:20",
+        "kind": "order"
+      },
+      {
+        "id": "shop-002",
+        "title": "따뜻한 양말",
+        "body": "장바구니에 담김",
+        "sender": "Coupang",
+        "time": "2026-10-22 12:24",
+        "kind": "order"
+      }
+    ],
+    "redbook": [
+      {
+        "id": "shop-003",
+        "title": "겨울 아우터 위시리스트",
+        "body": "约会穿搭收藏：简洁、舒服、方便走路。",
+        "sender": "MUSINSA",
+        "time": "2026-10-23 18:30",
+        "kind": "post"
+      },
+      {
+        "id": "shop-004",
+        "title": "립밤",
+        "body": "买给你的小东西，等你自己发现。",
+        "sender": "Olive Young",
+        "time": "2026-10-24 17:18",
+        "kind": "order"
+      }
+    ],
+    "wechat": [
+      {
+        "id": "wv-001",
+        "title": "官方社区",
+        "body": "今天的练习顺利结束！大家也要记得吃饭休息。",
+        "sender": "Weverse",
+        "time": "2026-10-24 20:00",
+        "kind": "post"
+      },
+      {
+        "id": "wv-002",
+        "title": "私信",
+        "body": "오늘 뭐 했어? 나는 이제 씻고 누웠어 ㅎㅎ",
+        "sender": "大崎将太郎",
+        "time": "2026-10-24 23:26",
+        "kind": "text",
+        "folder": "私信"
+      }
+    ],
+    "spotify": [
+      {
+        "id": "am-001",
+        "title": "Evening Walk",
+        "body": "大崎将太郎的私人歌单 · 8 songs",
+        "sender": "Apple Music",
+        "time": "2026-10-25 09:00",
+        "kind": "text"
+      },
+      {
+        "id": "am-002",
+        "title": "Track 01",
+        "body": "歌曲名称与音频待替换",
+        "sender": "Various Artists",
+        "time": "2026-10-25 09:00",
+        "kind": "audio"
+      }
+    ]
+  },
+  "variables": {},
+  "events": [],
+  "tests": []
+}
