@@ -3,9 +3,9 @@
   "id": "after-hours-shotaro-prototype",
   "title": "AFTER HOURS",
   "description": "虚构平行世界恋爱故事原型。当前版本暂以大崎将太郎路线作为手机内容样板；六人选角入口将在后续单独实现。",
-  "revision": 4,
+  "revision": 5,
   "phone": {
-    "owner": "大崎将太郎",
+    "owner": "我",
     "date": "2026-10-25",
     "time": "10:18",
     "battery": 84,
@@ -243,7 +243,7 @@
       "app": "messages",
       "title": "shotaro(⁎⁍̴̛ᴗ⁍̴̛⁎)",
       "participants": [
-        "player",
+        "owner",
         "shotaro"
       ],
       "messages": [
@@ -258,7 +258,7 @@
           "id": "im-002",
           "title": "昨晚",
           "body": "到家了！你呢？ㅋㅋ",
-          "senderId": "player",
+          "senderId": "owner",
           "time": "2026-10-24 23:20"
         },
         {
@@ -272,7 +272,7 @@
           "id": "im-004",
           "title": "昨晚",
           "body": "没事啦，你今天练习那么久才辛苦。고생했어～",
-          "senderId": "player",
+          "senderId": "owner",
           "time": "2026-10-24 23:22"
         },
         {
@@ -293,7 +293,7 @@
           "id": "im-007",
           "title": "今天",
           "body": "你不是上午还有练习吗？",
-          "senderId": "player",
+          "senderId": "owner",
           "time": "2026-10-25 09:08"
         },
         {
@@ -307,7 +307,7 @@
           "id": "im-009",
           "title": "今天",
           "body": "那我想吃热的！拜托啦🥺",
-          "senderId": "player",
+          "senderId": "owner",
           "time": "2026-10-25 09:10"
         },
         {
@@ -335,7 +335,7 @@
           "id": "im-013",
           "title": "今天",
           "body": "没关系，你先忙工作呀。괜찮아～",
-          "senderId": "player",
+          "senderId": "owner",
           "time": "2026-10-25 10:05"
         },
         {
@@ -356,7 +356,7 @@
           "id": "im-016",
           "title": "今天",
           "body": "我看看时间再告诉你～你先好好练习。",
-          "senderId": "player",
+          "senderId": "owner",
           "time": "2026-10-25 10:12"
         },
         {
@@ -373,7 +373,7 @@
       "app": "kakao",
       "title": "shotaro(⁎⁍̴̛ᴗ⁍̴̛⁎)",
       "participants": [
-        "player",
+        "owner",
         "shotaro"
       ],
       "messages": [
@@ -388,7 +388,7 @@
           "id": "ka-002",
           "title": "",
           "body": "当然要！",
-          "senderId": "player",
+          "senderId": "owner",
           "time": "2026-10-24 18:42"
         },
         {
@@ -402,7 +402,7 @@
           "id": "ka-004",
           "title": "",
           "body": "你又来了……",
-          "senderId": "player",
+          "senderId": "owner",
           "time": "2026-10-24 18:44"
         },
         {
