@@ -3,7 +3,7 @@
   "id": "after-hours-shotaro-prototype",
   "title": "AFTER HOURS",
   "description": "虚构平行世界恋爱故事原型。当前版本暂以大崎将太郎路线作为手机内容样板；六人选角入口将在后续单独实现。",
-  "revision": 3,
+  "revision": 4,
   "phone": {
     "owner": "大崎将太郎",
     "date": "2026-10-25",
@@ -135,7 +135,7 @@
     },
     {
       "id": "wechat",
-      "name": "Weverse",
+      "name": "微信",
       "installed": true,
       "visible": true,
       "dock": false,
@@ -144,7 +144,7 @@
     },
     {
       "id": "spotify",
-      "name": "Apple Music",
+      "name": "Spotify",
       "installed": true,
       "visible": true,
       "dock": false,
@@ -153,7 +153,7 @@
     },
     {
       "id": "taobao",
-      "name": "Coupang",
+      "name": "淘宝",
       "installed": true,
       "visible": true,
       "dock": false,
@@ -162,7 +162,7 @@
     },
     {
       "id": "redbook",
-      "name": "MUSINSA",
+      "name": "小红书",
       "installed": true,
       "visible": true,
       "dock": false,
@@ -171,7 +171,7 @@
     },
     {
       "id": "alipay",
-      "name": "Olive Young",
+      "name": "支付宝",
       "installed": true,
       "visible": true,
       "dock": false,
@@ -189,7 +189,7 @@
     },
     {
       "id": "shotaro",
-      "name": "大崎将太郎",
+      "name": "shotaro(⁎⁍̴̛ᴗ⁍̴̛⁎)",
       "phone": "010-1125-0000",
       "avatar": "",
       "bio": "练习结束后也要好好吃饭。"
@@ -216,18 +216,32 @@
       "bio": "工作安排"
     },
     {
-      "id": "dance_friend",
-      "name": "悠太",
+      "id": "wonbin",
+      "name": "朴元彬",
       "phone": "",
       "avatar": "",
-      "bio": "舞蹈朋友"
+      "bio": "朋友 / 看起来冷淡，其实很会观察"
+    },
+    {
+      "id": "sohee",
+      "name": "李炤熙",
+      "phone": "",
+      "avatar": "",
+      "bio": "朋友 / 情绪很外露的气氛担当"
+    },
+    {
+      "id": "anton",
+      "name": "李灿荣",
+      "phone": "",
+      "avatar": "",
+      "bio": "朋友 / 温柔细腻，偶尔直球"
     }
   ],
   "chats": [
     {
       "id": "shotaro-imessage",
       "app": "messages",
-      "title": "将太郎",
+      "title": "shotaro(⁎⁍̴̛ᴗ⁍̴̛⁎)",
       "participants": [
         "player",
         "shotaro"
@@ -243,7 +257,7 @@
         {
           "id": "im-002",
           "title": "昨晚",
-          "body": "到家了！你呢？",
+          "body": "到家了！你呢？ㅋㅋ",
           "senderId": "player",
           "time": "2026-10-24 23:20"
         },
@@ -257,7 +271,7 @@
         {
           "id": "im-004",
           "title": "昨晚",
-          "body": "没事啦，你今天练习那么久才辛苦。",
+          "body": "没事啦，你今天练习那么久才辛苦。고생했어～",
           "senderId": "player",
           "time": "2026-10-24 23:22"
         },
@@ -292,7 +306,7 @@
         {
           "id": "im-009",
           "title": "今天",
-          "body": "那我想吃热的！",
+          "body": "那我想吃热的！拜托啦🥺",
           "senderId": "player",
           "time": "2026-10-25 09:10"
         },
@@ -320,7 +334,7 @@
         {
           "id": "im-013",
           "title": "今天",
-          "body": "没关系，你先忙工作呀。",
+          "body": "没关系，你先忙工作呀。괜찮아～",
           "senderId": "player",
           "time": "2026-10-25 10:05"
         },
@@ -357,7 +371,7 @@
     {
       "id": "shotaro-kakao",
       "app": "kakao",
-      "title": "将太郎",
+      "title": "shotaro(⁎⁍̴̛ᴗ⁍̴̛⁎)",
       "participants": [
         "player",
         "shotaro"
@@ -403,12 +417,14 @@
     {
       "id": "friends-group",
       "app": "kakao",
-      "title": "练习结束后吃饭",
+      "title": "weriize",
       "participants": [
         "shotaro",
         "eunseok",
         "sungchan",
-        "dance_friend"
+        "wonbin",
+        "sohee",
+        "anton"
       ],
       "messages": [
         {
@@ -421,7 +437,7 @@
         {
           "id": "fg-002",
           "title": "",
-          "body": "我晚上有约啦，哈哈，你们先吃吧。",
+          "body": "我晚上有约啦，ㅋㅋ，你们先吃吧。",
           "senderId": "shotaro",
           "time": "2026-10-24 16:32"
         },
@@ -433,18 +449,32 @@
           "time": "2026-10-24 16:33"
         },
         {
-          "id": "fg-004",
-          "title": "",
-          "body": "真羡慕。",
-          "senderId": "dance_friend",
-          "time": "2026-10-24 16:34"
-        },
-        {
           "id": "fg-005",
           "title": "",
-          "body": "你们也自己约起来啊，哈哈。",
+          "body": "你们也自己约起来啊，ㅋㅋ。",
           "senderId": "shotaro",
           "time": "2026-10-24 16:35"
+        },
+        {
+          "id": "fg-006",
+          "title": "",
+          "body": "我练习结束再看消息，先别把我排除在晚饭之外ㅋㅋ",
+          "senderId": "wonbin",
+          "time": "2026-10-24 16:36"
+        },
+        {
+          "id": "fg-007",
+          "title": "",
+          "body": "那我负责找吃的！想吃热乎的东西。",
+          "senderId": "sohee",
+          "time": "2026-10-24 16:37"
+        },
+        {
+          "id": "fg-008",
+          "title": "",
+          "body": "我都可以，大家定好告诉我就行。",
+          "senderId": "anton",
+          "time": "2026-10-24 16:38"
         }
       ]
     }
